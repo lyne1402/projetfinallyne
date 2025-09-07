@@ -1,0 +1,387 @@
+body {
+  color: black;
+  background-color: #F7F6CF;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #111111; 
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;            
+  color: white;        
+}
+
+header h2 {
+  font-family: 'poppins', sans-serif;
+  margin: 40px;
+}
+
+nav ul {
+  list-style: none; 
+  display: flex; 
+  line-height: 1.6;
+  font-family: 'Poppins',sans-serif;
+}
+
+nav ul li {
+  margin-left: 30px;
+  margin-right: 40px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: none;
+  color: #5784BA;
+}
+
+.monnom {
+  color:#5784BA;
+}
+
+.monprenom {
+  line-height: 1.6;
+}
+
+.maclasse {
+  font-size: 40px;
+  margin: 60px;
+  padding: 60px;
+  display: flex;
+  align-items: center;
+  font-family: 'Dancing Script';  
+}
+
+.image {
+  width: 80% ;
+  margin: 0;
+  padding: 0;
+  margin-top: 100px;
+  margin-left: 40px;
+}
+
+.monbouton {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 15px 30px;
+  background-color: #5784BA;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+}
+
+.monbouton a {
+  color: white;
+  text-decoration: none;
+}
+
+.apropos {
+  background-color: #D4D3DC; 
+  padding: 60px 100px;
+  font-family: 'Poppins',sans-serif;
+}
+
+.apropos-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.apropos-texte {
+  flex: 1;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.cv-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 15px 30px;
+  background-color: #5784BA;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.cv-btn a {
+  color: white;
+  text-decoration: none;
+}
+
+.apropos-image img {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%; 
+  border: 4px solid #5784BA; 
+  object-fit: cover;
+}
+
+.apropos h2 {
+  text-align: center;   
+  color: #5784BA;
+  margin-bottom: 40px;
+  font-size: 28px;
+}
+
+.masection {
+  display: flex;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 40px;
+  color: #5784BA; 
+  margin-bottom: 30px;
+  margin-top: 20px;
+  font-family: 'Poppins',sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 20px;
+  height: 350px;
+  align-items: flex-start;
+  font-family: 'Poppins',sans-serif;
+  margin-bottom: 20px;
+}
+
+.card {
+  background-color: #D4D3DC;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  height: 150px;
+  margin-bottom: 40px;    
+}
+
+.card p {
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: #333;
+}
+
+.tags {
+  margin-bottom: 15px;
+  color: gray;
+  font-size: 13px;
+}
+
+.btn {
+  display: inline-block;
+  width: 80px;
+  text-align: center; 
+  padding: 3px 3px; 
+  background-color: #5784BA;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.mescompetences {
+  background-color: #D4D3DC;
+  height: 600px;
+}
+
+.competences-container {
+  display: flex;
+  gap: 10%;
+  font-family: 'Poppins',sans-serif;
+  justify-content: center;
+  font-size: 15px;
+  margin-top: 5%;
+}
+
+.competence {
+  color: #111111;
+}
+
+.bloc-competence {
+  background-color: #fff;
+  padding: 30px 40px;
+  border-radius: 10px;
+  width: 400px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  height: 180px;
+}
+
+.bloc-competence h3 {
+  text-align: center;
+  color: #333;
+  margin-top: -4px;
+}
+
+.competence p {
+  margin: 0; 
+  font-weight: bold;
+  color: #555;
+}
+
+.barre-fond {
+  background-color: #e0e0eb;
+  border-radius: 10px;
+  height: 7px;
+  overflow: hidden;
+  width: 80%;
+  margin: 0;
+}
+
+.barre-progression {
+  height: 90%;
+  background-color: #5784BA;
+  border-radius: 10px 0 0 10px; 
+}
+
+.contact-section {
+  text-align: center;
+  height: 700px;
+  width: 100%;
+  background-color: #111111;
+  margin: 0;
+  padding: 1%;
+}
+
+.contact-section h2 {
+  font-size: 50px;
+  margin-bottom: 30px;
+  line-height: 1.4;
+}
+
+.contact-section h2 span {
+  color: #5784BA;
+}
+
+.contact-section h2 strong {
+  font-size: 40px;
+}
+
+#contactForm {
+  max-width: 500px;      
+  margin: 0 auto;         
+  display: flex;
+  flex-direction: column;
+  gap: 5px; 
+  font-family: 'Poppins',sans-serif;         
+}
+
+#contactForm .row {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between; 
+  margin-bottom: 3px;
+  color: white;
+  text-align: left; 
+}
+
+#contactForm .row input { 
+  flex: 1;
+  max-width: 300px;
+  padding: 10px;
+  font-size: 14px;
+  margin: 0;
+  border-radius: 10px;
+  border: 2px solid #5784BA;
+  width: 225px;
+}
+
+#contactForm #sujet {
+  padding: 10px;
+  max-width: 500px;
+  margin: 0 auto;
+  font-size: 14px;
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid #5784BA;
+}
+
+#contactForm #message {
+  padding: 10px;
+  height: 200px;
+  max-width: 500px;
+  margin: 0 auto;
+  font-size: 14px;
+  width: 100%;
+  border-radius: 10px;
+  border-color: #5784BA;
+}
+
+#contactForm button {
+  padding: 10px;
+  width: 200px;
+  margin: 0 auto;
+  cursor: pointer;
+  font-size: 20px;
+  background-color: #5784BA;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Poppins',sans-serif;
+  font-weight: bold;
+}
+
+#contactForm label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: white;
+  text-align: left;
+}
+
+.inputname {
+  padding: 8px;
+  border-radius: 10px;
+}
+
+#row {
+  display: flex;
+}
+
+.prenom {
+  color: white;
+}
+
+footer {
+  background-color: #F7F6CF;   
+  color: black;
+  padding: 20px 10px;
+  font-size: 14px;
+  bottom: 0;
+  left: 0;
+  width: 95%;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  padding-left: 4%;
+  height:10%;
+  font-family: 'Poppins',sans-serif;
+}
+
+footer span {
+  color: #5784BA;   
+  font-weight: bold;
+}
+
+.footer {
+  padding-right: 5%;
+}
